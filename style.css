@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.5em;
+    color: white !important;
+}
+
+.navbar {
+    background-color: navy;
+    box-shadow: #000 0px 6px 8px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    font-family: 'Oswald', sans-serif; 
+    color: white !important; 
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.match-section {
+    background: url('img/bola1.jpg') center/cover; 
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.match-text {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4em;
+    color: white;
+    text-shadow: 9px 9px 4px #000; 
+    position: relative; 
+    z-index: 2; 
+}
+
+.background-navy {
+    background-color: navy; 
+    padding: 100px; 
+    text-align: center;
+    position: relative;
+}
+
+.rounded-box {
+    background-color: rgb(202, 196, 196);
+    padding: 35px;
+    height: 50%;
+    border-radius: 15px;
+    border: 2px solid #000;
+    width: 58%;
+    margin: 20px auto; 
+    position: absolute; 
+    top: 75%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1;
+}
+
+.gambar-persija{
+    width: 210px;
+    height: 170px;
+}
+
+.gambar-persib{
+    width: 150px;
+    height: 150px;
+}
+
+.team-name {
+    margin-top: 40px; 
+    font-size: 25px;
+    font-weight: bold !important;
+    color: #000000; 
+    font-family: 'Oswald', sans-serif;
+}
+
+.vs-text {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+}
+
+.date-text {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: #000000; 
+}
+
+.time-text {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: #070707; 
+}
+
+.grey-section {
+    background-color: rgb(202, 196, 196); 
+    padding: 150px;
+}
+
+
+
